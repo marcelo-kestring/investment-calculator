@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentCalculatorBackend", "InvestmentCalculatorBackend\InvestmentCalculatorBackend.csproj", "{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvestmentCalculatorBackend", "InvestmentCalculatorBackend\InvestmentCalculatorBackend.csproj", "{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{81E8335F-5866-4CDE-B7F8-412DDC9C4F31}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "InvestmentCalculatorFrontend", "InvestmentCalculatorFrontend\InvestmentCalculatorFrontend.esproj", "{781B3593-2108-4B51-A2BC-8AF60C3AAF44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{797A2927-643B-489F-B562-7C8E07050822}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,19 @@ Global
 		{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA} = {797A2927-643B-489F-B562-7C8E07050822}
+		{781B3593-2108-4B51-A2BC-8AF60C3AAF44} = {81E8335F-5866-4CDE-B7F8-412DDC9C4F31}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FA3C055-B611-4905-8E40-D395FEE4DAAE}

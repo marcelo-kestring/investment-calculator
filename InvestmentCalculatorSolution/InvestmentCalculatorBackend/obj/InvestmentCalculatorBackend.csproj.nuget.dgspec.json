@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj": {}
+    "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj": {
+    "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
+        "projectUniqueName": "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
         "projectName": "InvestmentCalculatorBackend",
-        "projectPath": "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
+        "projectPath": "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\obj\\",
+        "outputPath": "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,2 @@
+C:\Projetos\genesis\investment-calculator\InvestmentCalculatorSolution\InvestmentCalculatorFrontend\obj\Debug\InvestmentCalculatorFrontend.esproj.SuggestedBindingRedirects.cache
+C:\Projetos\genesis\investment-calculator\InvestmentCalculatorSolution\InvestmentCalculatorFrontend\obj\Debug\InvestmentCalculatorFrontend.esproj.CoreCompileInputs.cache

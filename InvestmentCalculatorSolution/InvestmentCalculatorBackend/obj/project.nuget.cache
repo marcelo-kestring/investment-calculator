@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/XcuwkYTPeoo96P9NO0atojSwmUWp6esKxNweKG2kLA18NfVvkMzC+s4Dq49dGdc7QYNCf4mbX2OzWlH205kGQ==",
+  "dgSpecHash": "1xk0w9k7Nl0YOjpVMGDoJzLlND2xiQs2L5rb4G0dlReXN1M304QcuETDhI2ZscwzjFKYwwkPzfupFi3Bu1WykQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\genesis\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
+  "projectFilePath": "C:\\Projetos\\genesis\\investment-calculator\\InvestmentCalculatorSolution\\InvestmentCalculatorBackend\\InvestmentCalculatorBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.9\\microsoft.aspnetcore.openapi.7.0.9.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
