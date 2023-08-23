@@ -1,44 +1,55 @@
-var builder = WebApplication.CreateBuilder(args);
+using InvestmentCalculatorBackend.Business;
+using System.Diagnostics.CodeAnalysis;
 
-builder.Services.AddCors(options =>
+namespace Principal
 {
-    //options.AddDefaultPolicy(
-    //    policy =>
-    //    {
-    //        policy.WithOrigins("https://localhost:4200",
-    //                           "http://localhost:4200");
-    //    });
-    options.AddPolicy("AllowAnyOrigin", builderOrigin =>
+    [ExcludeFromCodeCoverage]
+    public static class Program
     {
-        builderOrigin.AllowAnyOrigin()
-                     .AllowAnyMethod()
-                     .AllowAnyHeader();
-    });
-});
+        public static void Main(string[] args)
+        {
+            var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAnyOrigin", builderOrigin =>
+                {
+                    builderOrigin.AllowAnyOrigin()
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader();
+                });
+            });
 
 
-// Add services to the container.
+            // Add services to the container.
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+            builder.Services.AddControllers();
+            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+            builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
+            builder.Services.AddScoped<IRendimentoService, RendimentoService>();
+            builder.Services.AddScoped<IRendimentoLiquidoService, RendimentoLiquidoService>();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+            var app = builder.Build();
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
+            {
+                app.UseSwagger();
+                app.UseSwaggerUI();
+            }
+
+            app.UseHttpsRedirection();
+
+            app.UseCors("AllowAnyOrigin");
+
+            app.UseAuthorization();
+
+            app.MapControllers();
+
+            app.Run();
+        }
+
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseCors("AllowAnyOrigin");
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

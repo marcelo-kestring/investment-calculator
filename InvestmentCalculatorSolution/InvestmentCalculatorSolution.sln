@@ -11,6 +11,8 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "InvestmentCalculatorFronten
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{797A2927-643B-489F-B562-7C8E07050822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestmentCalculatorBackend.UnitTests", "InvestmentCalculatorBackend.UnitTests\InvestmentCalculatorBackend.UnitTests.csproj", "{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.Build.0 = Release|Any CPU
 		{781B3593-2108-4B51-A2BC-8AF60C3AAF44}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ECAC32EE-C3D0-4EFA-9DD5-17E34FE7BEFA} = {797A2927-643B-489F-B562-7C8E07050822}
 		{781B3593-2108-4B51-A2BC-8AF60C3AAF44} = {81E8335F-5866-4CDE-B7F8-412DDC9C4F31}
+		{FFC0D678-BA7C-42E7-ACA3-E6E111FB592D} = {797A2927-643B-489F-B562-7C8E07050822}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FA3C055-B611-4905-8E40-D395FEE4DAAE}
