@@ -1,6 +1,6 @@
 # Instruções de Execução e Testes
 
-Esta pasta do repositório contém uma solução que inclui um projeto backend em .NET C# e um projeto frontend em Angular 16.
+Esta pasta do repositório contém uma solução que inclui um projeto [backend](https://github.com/marcelo-kestring/investment-calculator/tree/main/InvestmentCalculatorSolution#backend-net-c) em .NET C# e um projeto [frontend](https://github.com/marcelo-kestring/investment-calculator/tree/main/InvestmentCalculatorSolution#frontend-angular-16) em Angular 16.
 
 ## Backend (.NET C#)
 
