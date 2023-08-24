@@ -49,4 +49,4 @@ Para visualizar a cobertura de testes
 
 ---
 
-Sinta-se à vontade para entrar em contato se precisar de ajuda com a execução, testes ou qualquer outra parte da solução.
+Sinta-se à vontade para entrar em contato (marcelo.kestring@outlook.com) se precisar de ajuda com a execução, testes ou qualquer outra parte da solução.
